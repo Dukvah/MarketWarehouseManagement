@@ -1,54 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\",
+  "WorkspaceRootPath": "C:\\Users\\elifa\\source\\repos\\Dukvah\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9150C22D-76C2-4E15-AF6B-0B70C1F9D136}|Entities\\Entities.csproj|c:\\users\\elifa\\source\\repos\\chainmarketwarehousemanagement\\entities\\dtos\\addstockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9150C22D-76C2-4E15-AF6B-0B70C1F9D136}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\addstockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{070522AE-8225-4899-AE1A-D35FEBC6A521}|Business\\Business.csproj|c:\\users\\elifa\\source\\repos\\dukvah\\marketwarehousemanagement\\chainmarketwarehousemanagement\\business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{070522AE-8225-4899-AE1A-D35FEBC6A521}|Business\\Business.csproj|solutionrelative:business\\dependencyresolvers\\autofac\\autofacbusinessmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{070522AE-8225-4899-AE1A-D35FEBC6A521}|Business\\Business.csproj|c:\\users\\elifa\\source\\repos\\chainmarketwarehousemanagement\\business\\concrete\\stockmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{070522AE-8225-4899-AE1A-D35FEBC6A521}|Business\\Business.csproj|solutionrelative:business\\concrete\\stockmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F5C436C-5B6E-496E-8229-B46C2330D276}|WebAPI\\WebAPI.csproj|c:\\users\\elifa\\source\\repos\\dukvah\\marketwarehousemanagement\\chainmarketwarehousemanagement\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F5C436C-5B6E-496E-8229-B46C2330D276}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F5C436C-5B6E-496E-8229-B46C2330D276}|WebAPI\\WebAPI.csproj|c:\\users\\elifa\\source\\repos\\chainmarketwarehousemanagement\\webapi\\controllers\\productcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5C436C-5B6E-496E-8229-B46C2330D276}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\productcategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{070522AE-8225-4899-AE1A-D35FEBC6A521}|Business\\Business.csproj|c:\\users\\elifa\\source\\repos\\chainmarketwarehousemanagement\\business\\concrete\\productcategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{070522AE-8225-4899-AE1A-D35FEBC6A521}|Business\\Business.csproj|solutionrelative:business\\concrete\\productcategorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F5C436C-5B6E-496E-8229-B46C2330D276}|WebAPI\\WebAPI.csproj|c:\\users\\elifa\\source\\repos\\chainmarketwarehousemanagement\\webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F5C436C-5B6E-496E-8229-B46C2330D276}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9150C22D-76C2-4E15-AF6B-0B70C1F9D136}|Entities\\Entities.csproj|c:\\users\\elifa\\source\\repos\\chainmarketwarehousemanagement\\entities\\dtos\\addproductcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9150C22D-76C2-4E15-AF6B-0B70C1F9D136}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\addproductcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{070522AE-8225-4899-AE1A-D35FEBC6A521}|Business\\Business.csproj|c:\\users\\elifa\\source\\repos\\chainmarketwarehousemanagement\\business\\abstract\\iproductcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{070522AE-8225-4899-AE1A-D35FEBC6A521}|Business\\Business.csproj|solutionrelative:business\\abstract\\iproductcategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{070522AE-8225-4899-AE1A-D35FEBC6A521}|Business\\Business.csproj|c:\\users\\elifa\\source\\repos\\chainmarketwarehousemanagement\\business\\abstract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{070522AE-8225-4899-AE1A-D35FEBC6A521}|Business\\Business.csproj|solutionrelative:business\\abstract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{070522AE-8225-4899-AE1A-D35FEBC6A521}|Business\\Business.csproj|c:\\users\\elifa\\source\\repos\\chainmarketwarehousemanagement\\business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{070522AE-8225-4899-AE1A-D35FEBC6A521}|Business\\Business.csproj|solutionrelative:business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9150C22D-76C2-4E15-AF6B-0B70C1F9D136}|Entities\\Entities.csproj|c:\\users\\elifa\\source\\repos\\chainmarketwarehousemanagement\\entities\\dtos\\updateproductcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9150C22D-76C2-4E15-AF6B-0B70C1F9D136}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\updateproductcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9150C22D-76C2-4E15-AF6B-0B70C1F9D136}|Entities\\Entities.csproj|c:\\users\\elifa\\source\\repos\\chainmarketwarehousemanagement\\entities\\dtos\\addproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9150C22D-76C2-4E15-AF6B-0B70C1F9D136}|Entities\\Entities.csproj|solutionrelative:entities\\dtos\\addproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{070522AE-8225-4899-AE1A-D35FEBC6A521}|Business\\Business.csproj|c:\\users\\elifa\\source\\repos\\chainmarketwarehousemanagement\\business\\constants\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{070522AE-8225-4899-AE1A-D35FEBC6A521}|Business\\Business.csproj|solutionrelative:business\\constants\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{48874AF2-806B-41C8-B16D-6F2A6A0646AD}|DataAccess\\DataAccess.csproj|c:\\users\\elifa\\source\\repos\\dukvah\\marketwarehousemanagement\\chainmarketwarehousemanagement\\dataaccess\\concrete\\entityframework\\warehousemanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48874AF2-806B-41C8-B16D-6F2A6A0646AD}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\warehousemanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,162 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StockManager.cs",
-              "DocumentMoniker": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Business\\Concrete\\StockManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\StockManager.cs",
-              "ToolTip": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Business\\Concrete\\StockManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\StockManager.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAhwCwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T13:22:40.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AddStockDto.cs",
-              "DocumentMoniker": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Entities\\DTOs\\AddStockDto.cs",
-              "RelativeDocumentMoniker": "Entities\\DTOs\\AddStockDto.cs",
-              "ToolTip": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Entities\\DTOs\\AddStockDto.cs",
-              "RelativeToolTip": "Entities\\DTOs\\AddStockDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Title": "AutofacBusinessModule.cs",
+              "DocumentMoniker": "C:\\Users\\elifa\\source\\repos\\Dukvah\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "RelativeDocumentMoniker": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "ToolTip": "C:\\Users\\elifa\\source\\repos\\Dukvah\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "RelativeToolTip": "Business\\DependencyResolvers\\Autofac\\AutofacBusinessModule.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwCMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T13:22:31.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddProductCategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Entities\\DTOs\\AddProductCategoryDto.cs",
-              "RelativeDocumentMoniker": "Entities\\DTOs\\AddProductCategoryDto.cs",
-              "ToolTip": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Entities\\DTOs\\AddProductCategoryDto.cs",
-              "RelativeToolTip": "Entities\\DTOs\\AddProductCategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T13:17:47.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IProductCategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Business\\Abstract\\IProductCategoryService.cs",
-              "RelativeDocumentMoniker": "Business\\Abstract\\IProductCategoryService.cs",
-              "ToolTip": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Business\\Abstract\\IProductCategoryService.cs",
-              "RelativeToolTip": "Business\\Abstract\\IProductCategoryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T13:17:19.642Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UpdateProductCategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Entities\\DTOs\\UpdateProductCategoryDto.cs",
-              "RelativeDocumentMoniker": "Entities\\DTOs\\UpdateProductCategoryDto.cs",
-              "ToolTip": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Entities\\DTOs\\UpdateProductCategoryDto.cs",
-              "RelativeToolTip": "Entities\\DTOs\\UpdateProductCategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T13:16:26.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductManager.cs",
-              "DocumentMoniker": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Business\\Concrete\\ProductManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\ProductManager.cs",
-              "ToolTip": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Business\\Concrete\\ProductManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\ProductManager.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCUAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T13:11:12.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Business\\Abstract\\IProductService.cs",
-              "RelativeDocumentMoniker": "Business\\Abstract\\IProductService.cs",
-              "ToolTip": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Business\\Abstract\\IProductService.cs",
-              "RelativeToolTip": "Business\\Abstract\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T13:10:50.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AddProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Entities\\DTOs\\AddProductDto.cs",
-              "RelativeDocumentMoniker": "Entities\\DTOs\\AddProductDto.cs",
-              "ToolTip": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Entities\\DTOs\\AddProductDto.cs",
-              "RelativeToolTip": "Entities\\DTOs\\AddProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T13:10:09.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductCategoryManager.cs",
-              "DocumentMoniker": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Business\\Concrete\\ProductCategoryManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\ProductCategoryManager.cs",
-              "ToolTip": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Business\\Concrete\\ProductCategoryManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\ProductCategoryManager.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T13:02:47.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\WebAPI\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\WebAPI\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T12:59:19.775Z",
+              "WhenOpened": "2025-02-11T19:30:24.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProductCategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\WebAPI\\Controllers\\ProductCategoryController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\ProductCategoryController.cs",
-              "ToolTip": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\WebAPI\\Controllers\\ProductCategoryController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\ProductCategoryController.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAkwDQAAAAdAAAAAAAAAA==",
+              "Title": "WarehouseManagementContext.cs",
+              "DocumentMoniker": "C:\\Users\\elifa\\source\\repos\\Dukvah\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\DataAccess\\Concrete\\EntityFramework\\WarehouseManagementContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\WarehouseManagementContext.cs",
+              "ToolTip": "C:\\Users\\elifa\\source\\repos\\Dukvah\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\DataAccess\\Concrete\\EntityFramework\\WarehouseManagementContext.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\WarehouseManagementContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T12:59:12.982Z",
+              "WhenOpened": "2025-02-11T19:14:04.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Messages.cs",
-              "DocumentMoniker": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Business\\Constants\\Messages.cs",
-              "RelativeDocumentMoniker": "Business\\Constants\\Messages.cs",
-              "ToolTip": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Business\\Constants\\Messages.cs",
-              "RelativeToolTip": "Business\\Constants\\Messages.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA4AAAAsAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\elifa\\source\\repos\\Dukvah\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\elifa\\source\\repos\\Dukvah\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T12:54:24.748Z",
+              "WhenOpened": "2025-02-11T18:38:35.823Z",
               "EditorCaption": ""
             }
           ]

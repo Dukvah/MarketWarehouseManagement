@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccess.Migrations
 {
     [DbContext(typeof(WarehouseManagementContext))]
-    [Migration("20250115121750_mig1")]
-    partial class mig1
+    [Migration("20250211092450_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -314,6 +314,8 @@ namespace DataAccess.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("MainWarehouseID");
+
                     b.ToTable("warehouses");
                 });
 
@@ -366,6 +368,15 @@ namespace DataAccess.Migrations
                     b.Navigation("OGWarehouse");
 
                     b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("Entities.Concrete.Warehouse", b =>
+                {
+                    b.HasOne("Entities.Concrete.Warehouse", "MainWarehouse")
+                        .WithMany()
+                        .HasForeignKey("MainWarehouseID");
+
+                    b.Navigation("MainWarehouse");
                 });
 #pragma warning restore 612, 618
         }

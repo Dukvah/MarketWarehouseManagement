@@ -1,7 +1,9 @@
 ﻿using Business.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Core.Extensions;
 
 namespace WebAPI.Controllers
 {
@@ -50,6 +52,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("getAllProducts")]
+        [Authorize(Roles = "Admin")]
         public IActionResult GetAll()
         {
             var result = _productService.GetAll();
@@ -61,6 +64,17 @@ namespace WebAPI.Controllers
 
             return BadRequest(result);
         }
+
+        [HttpGet("getProductPage")]
+        public IActionResult GetProductsPage([FromQuery] int pageNumber, [FromQuery] int pageSize)
+        {
+            var result = _productService.GetProductsPage(pageNumber, pageSize);
+            if (!result.IsSuccess)
+                return BadRequest(result.Message);
+
+            return Ok(result);
+        }
+
 
         [HttpGet("getProductbyId")]
         public IActionResult GetById(int productId)

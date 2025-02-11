@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "/BH60rsLIuo=",
+  "dgSpecHash": "+e+LCU8Hozs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Business\\Business.csproj",
+  "projectFilePath": "C:\\Users\\elifa\\source\\repos\\Dukvah\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elifa\\.nuget\\packages\\autofac\\8.2.0\\autofac.8.2.0.nupkg.sha512",
+    "C:\\Users\\elifa\\.nuget\\packages\\autofac.extras.dynamicproxy\\7.1.0\\autofac.extras.dynamicproxy.7.1.0.nupkg.sha512",
     "C:\\Users\\elifa\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
     "C:\\Users\\elifa\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\elifa\\.nuget\\packages\\docusign.esign.dll\\8.0.2\\docusign.esign.dll.8.0.2.nupkg.sha512",

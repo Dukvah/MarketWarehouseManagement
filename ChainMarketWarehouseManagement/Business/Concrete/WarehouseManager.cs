@@ -22,7 +22,7 @@ namespace Business.Concrete
             newWarehouse.Address = addWarehouseDto.Address;
             newWarehouse.MainWarehouseID = addWarehouseDto.MainWarehouseID;
             _warehouseDal.Add(newWarehouse);
-            return new SuccessResult(Messages.WarehouseAdded);
+            return new SuccessDataResult<AddWarehouseDto>(addWarehouseDto, Messages.WarehouseAdded);
         }
 
         public IDataResult<List<Warehouse>> GetAll()

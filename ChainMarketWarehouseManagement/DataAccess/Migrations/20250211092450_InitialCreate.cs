@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace DataAccess.Migrations
 {
     /// <inheritdoc />
-    public partial class mig1 : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -149,6 +149,11 @@ namespace DataAccess.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_warehouses", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_warehouses_warehouses_MainWarehouseID",
+                        column: x => x.MainWarehouseID,
+                        principalTable: "warehouses",
+                        principalColumn: "Id");
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -269,6 +274,11 @@ namespace DataAccess.Migrations
                 name: "IX_Stocks_ProductID",
                 table: "Stocks",
                 column: "ProductID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_warehouses_MainWarehouseID",
+                table: "warehouses",
+                column: "MainWarehouseID");
         }
 
         /// <inheritdoc />

@@ -113,7 +113,7 @@
   {
     "ContainingType": "WebAPI.Controllers.ProductCategoryController",
     "Method": "GetById",
-    "RelativePath": "api/ProductCategory/getProductbyId",
+    "RelativePath": "api/ProductCategory/getCategorybyId",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -220,6 +220,27 @@
     "Parameters": [
       {
         "Name": "productId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.ProductsController",
+    "Method": "GetProductsPage",
+    "RelativePath": "api/Products/getProductPage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
         "Type": "System.Int32",
         "IsRequired": false
       }

@@ -8,6 +8,7 @@
         public static string ProductUpdated = "Ürün Başarıyla Güncellendi";
         public static string ProductDeleted = "Ürün Başarıyla Silindi";
         public static string ProductNameInvalid = "Ürün ismi geçersiz";
+        public static string ProductNameAlreadyExists = "Aynı isimde ürün zaten mevcut";
         public static string MaintenanceTime = "Sistem bakımda";
 
         public static string ProductCategoryAdded = "Ürün Kategorisi Eklendi";

@@ -6,10 +6,21 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class WarehouseManagementContext : DbContext
     {
+
+        public WarehouseManagementContext() { }
+        public WarehouseManagementContext(DbContextOptions<WarehouseManagementContext> options)
+            : base(options)
+         {
+    
+         }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySql("server=localhost;port=3306;user=root;password=;database=warehousedb",
-                              ServerVersion.AutoDetect("server=localhost;port=3306;user=root;password=;database=warehousedb"));
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseMySql("server=localhost;port=3306;user=root;password=;database=warehousedb",
+                    ServerVersion.AutoDetect("server=localhost;port=3306;user=root;password=;database=warehousedb"));
+            }
         }
 
         public DbSet<User> Users { get; set; }

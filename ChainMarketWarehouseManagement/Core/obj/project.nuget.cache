@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3LYTyTP8hiA=",
+  "dgSpecHash": "mS3fGyRH+C4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\elifa\\source\\repos\\ChainMarketWarehouseManagement\\Core\\Core.csproj",
+  "projectFilePath": "C:\\Users\\elifa\\source\\repos\\Dukvah\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elifa\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\elifa\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",

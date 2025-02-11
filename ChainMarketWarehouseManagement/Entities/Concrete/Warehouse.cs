@@ -13,5 +13,6 @@ namespace Entities.Concrete
         public string Address { get; set; }
         public string Name { get; set; }
         public int? MainWarehouseID { get; set; }
+        public Warehouse MainWarehouse { get; set; }
     }
 }

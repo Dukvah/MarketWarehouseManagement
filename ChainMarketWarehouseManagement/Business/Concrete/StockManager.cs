@@ -23,7 +23,7 @@ namespace Business.Concrete
             newStock.ProductID = addstockDto.ProductID;
             newStock.Quentity = addstockDto.Quentity;
             _stockDal.Add(newStock);
-            return new SuccessResult(Messages.StockAdded);
+            return new SuccessDataResult<AddStockDto>(addstockDto,Messages.StockAdded);
         }
 
         public IDataResult<List<Stock>> GetAll()

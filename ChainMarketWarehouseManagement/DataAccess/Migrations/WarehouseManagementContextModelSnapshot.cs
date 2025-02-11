@@ -311,6 +311,8 @@ namespace DataAccess.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("MainWarehouseID");
+
                     b.ToTable("warehouses");
                 });
 
@@ -363,6 +365,15 @@ namespace DataAccess.Migrations
                     b.Navigation("OGWarehouse");
 
                     b.Navigation("Product");
+                });
+
+            modelBuilder.Entity("Entities.Concrete.Warehouse", b =>
+                {
+                    b.HasOne("Entities.Concrete.Warehouse", "MainWarehouse")
+                        .WithMany()
+                        .HasForeignKey("MainWarehouseID");
+
+                    b.Navigation("MainWarehouse");
                 });
 #pragma warning restore 612, 618
         }

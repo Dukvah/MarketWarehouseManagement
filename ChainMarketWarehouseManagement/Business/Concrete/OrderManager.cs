@@ -33,7 +33,7 @@ namespace Business.Concrete
                 _orderItemDal.Add(orderItem);
             }
           
-            return new SuccessResult(Messages.OrderAdded);
+            return new SuccessDataResult<OrderDetailDto>(order,Messages.OrderAdded);
         }
 
         public IResult Update(UpdateOrderDto updateOrderDto)

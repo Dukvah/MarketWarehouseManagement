@@ -1,6 +1,9 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Transaction;
+using Core.Aspects.Autofac.Validation;
+using Core.Utilities.Business;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -28,8 +31,28 @@ namespace Business.Concrete
         {
             return new SuccessDataResult<Product>(_productDal.Get(p => p.Id == productId));
         }
+
+        public IDataResult<PaginationResult<Product>> GetProductsPage(int pageNumber, int pageSize)
+        {
+            var query = _productDal.GetAllQueryable(); // IQueryable<Product> döndürüyor
+
+            var totalRecords = query.Count();
+            var data = query.Skip((pageNumber - 1) * pageSize)
+                            .Take(pageSize)
+                            .ToList();
+
+            var response = new PaginationResult<Product>(data, pageNumber, pageSize, totalRecords);
+            return new SuccessDataResult<PaginationResult<Product>>(response, Messages.ProductListed);
+        }
+
+
+        [ValidationAspect(typeof(ProductValidator))] // Örnek Validation Kontrolü
         public IResult Add(AddProductDto addProductDto)
         {
+            IResult result = BusinessRules.Run(CheckIfProductNameExists(addProductDto.Name)); // BusinessRules Örneği
+            if (result != null) 
+                return result;
+
             var newProduct = new Product();
             newProduct.Sku = addProductDto.Sku;
             newProduct.Name = addProductDto.Name;
@@ -37,7 +60,7 @@ namespace Business.Concrete
             newProduct.Price = addProductDto.Price;
             newProduct.ProductCategoryId = addProductDto.ProductCategoryId;
             _productDal.Add(newProduct);
-            return new SuccessResult(Messages.ProductAdded);
+            return new SuccessDataResult<AddProductDto>(addProductDto,Messages.ProductAdded);
         }
         public IResult Update(UpdateProductDto updateProductDto, int id)
         {
@@ -61,6 +84,14 @@ namespace Business.Concrete
             throw new NotImplementedException();
         }
 
-
+        private IResult CheckIfProductNameExists(string productName)
+        {
+            var existingProduct = _productDal.Get(p => p.Name == productName);
+            if (existingProduct != null)
+            {
+                return new ErrorResult(Messages.ProductNameAlreadyExists);
+            }
+            return new SuccessResult();
+        }
     }
 }

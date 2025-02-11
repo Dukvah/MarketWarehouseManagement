@@ -20,7 +20,8 @@ namespace Business.Concrete
             var productCategory = new ProductCategory();
             productCategory.Name = addProductCategoryDto.Name;
             _productCategoryDal.Add(productCategory);
-            return new SuccessResult(Messages.ProductCategoryAdded);
+
+            return new SuccessDataResult<AddProductCategoryDto>(addProductCategoryDto,Messages.ProductCategoryAdded);
         }
 
         public IResult Delete(int id)

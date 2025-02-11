@@ -4,7 +4,7 @@ using DataAccess.Abstract;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class EfUserDal : EfEntityRepositoryBase<User, WarehouseManagementContext>, IUserDal
+    public class EFUserDal : EfEntityRepositoryBase<User, WarehouseManagementContext>, IUserDal
     {
         public List<OperationClaim> GetClaims(User user)
         {
@@ -16,7 +16,6 @@ namespace DataAccess.Concrete.EntityFramework
                              where userOperationClaim.UserId == user.Id
                              select new OperationClaim { Id = operationClaim.Id, Name = operationClaim.Name };
                 return result.ToList();
-
             }
         }
     }
