@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X2Kd/1o1WCo=",
+  "dgSpecHash": "EgPL5IKPgAU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\elifa\\source\\repos\\Dukvah\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\elifa\\source\\repos\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elifa\\.nuget\\packages\\autofac\\8.2.0\\autofac.8.2.0.nupkg.sha512",
     "C:\\Users\\elifa\\.nuget\\packages\\autofac.extensions.dependencyinjection\\10.0.0\\autofac.extensions.dependencyinjection.10.0.0.nupkg.sha512",

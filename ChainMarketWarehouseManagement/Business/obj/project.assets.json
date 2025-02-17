@@ -1822,11 +1822,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elifa\\source\\repos\\Dukvah\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\Business\\Business.csproj",
+      "projectUniqueName": "C:\\Users\\elifa\\source\\repos\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "C:\\Users\\elifa\\source\\repos\\Dukvah\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\Business\\Business.csproj",
+      "projectPath": "C:\\Users\\elifa\\source\\repos\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\Business\\Business.csproj",
       "packagesPath": "C:\\Users\\elifa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elifa\\source\\repos\\Dukvah\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\Business\\obj\\",
+      "outputPath": "C:\\Users\\elifa\\source\\repos\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1847,14 +1847,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\elifa\\source\\repos\\Dukvah\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\elifa\\source\\repos\\Dukvah\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\Core\\Core.csproj"
+            "C:\\Users\\elifa\\source\\repos\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\elifa\\source\\repos\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\Core\\Core.csproj"
             },
-            "C:\\Users\\elifa\\source\\repos\\Dukvah\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\elifa\\source\\repos\\Dukvah\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\elifa\\source\\repos\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\elifa\\source\\repos\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\elifa\\source\\repos\\Dukvah\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\elifa\\source\\repos\\Dukvah\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\Entities\\Entities.csproj"
+            "C:\\Users\\elifa\\source\\repos\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\elifa\\source\\repos\\MarketWarehouseManagement\\ChainMarketWarehouseManagement\\Entities\\Entities.csproj"
             }
           }
         }
